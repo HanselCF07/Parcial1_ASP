@@ -17,7 +17,18 @@ namespace Parcial1_ASP
         {
             if (IsValid)
             {
-                Label6.Text = "Registro Exitoso";
+                String pass1 = tb_1d.Text;
+                String pass2 = tb_1e.Text;
+
+                if (pass1.Equals(pass2))
+                {
+                    Label6.Text = "Registro Exitoso";
+                }
+                else
+                {
+                    Label6.Text = "Contraseñas no Coinciden";
+                }
+                
             }
         }
     }

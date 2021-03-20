@@ -113,6 +113,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="CreateAccount.aspx" />
+    <Content Include="CreateBilling.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -127,7 +128,9 @@
     <Content Include="Content\bootstrap-theme.css.map" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Index.aspx" />
+    <Content Include="ListBilling.aspx" />
     <Content Include="RecoveryPassword.aspx" />
+    <Content Include="SatisfactionSurvey.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -186,6 +189,13 @@
     <Compile Include="CreateAccount.aspx.designer.cs">
       <DependentUpon>CreateAccount.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CreateBilling.aspx.cs">
+      <DependentUpon>CreateBilling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CreateBilling.aspx.designer.cs">
+      <DependentUpon>CreateBilling.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -203,6 +213,13 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ListBilling.aspx.cs">
+      <DependentUpon>ListBilling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListBilling.aspx.designer.cs">
+      <DependentUpon>ListBilling.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RecoveryPassword.aspx.cs">
       <DependentUpon>RecoveryPassword.aspx</DependentUpon>
@@ -210,6 +227,13 @@
     </Compile>
     <Compile Include="RecoveryPassword.aspx.designer.cs">
       <DependentUpon>RecoveryPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SatisfactionSurvey.aspx.cs">
+      <DependentUpon>SatisfactionSurvey.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SatisfactionSurvey.aspx.designer.cs">
+      <DependentUpon>SatisfactionSurvey.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>

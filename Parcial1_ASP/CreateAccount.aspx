@@ -37,6 +37,14 @@
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="tb_1c" ErrorMessage="*" Display="Dynamic" ValidationExpression="([\w]|[\s]){1,25}"> Digite solo letras</asp:RegularExpressionValidator>               
                 <asp:TextBox ID="tb_1c" runat="server" class="form-control"></asp:TextBox>
                 <br/>
+                <asp:Label ID="Label4" runat="server" Text="Contraseña"></asp:Label> 
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator3" ControlToValidate="tb_1d" runat="server" ErrorMessage="Debe ingresar su Contraseña" Text="*" ForeColor="Red"></asp:RequiredFieldValidator>                     
+                <asp:TextBox ID="tb_1d" runat="server" TextMode="Password" class="form-control"></asp:TextBox>                                         
+                <br/>
+                <asp:Label ID="Label5" runat="server" Text="Confirmar Contraseña"></asp:Label> 
+                <asp:RequiredFieldValidator ID="RequiredFieldValidator4" ControlToValidate="tb_1e" runat="server" ErrorMessage="Debe ingresar su Contraseña" Text="*" ForeColor="Red"></asp:RequiredFieldValidator>                     
+                <asp:TextBox ID="tb_1e" runat="server" TextMode="Password" class="form-control"></asp:TextBox>                                         
+                <br/>
                 <asp:ValidationSummary ID="ValidationSummary1" runat="server" />   
                 <asp:Button ID="Button1" class="btn btn-success marging" runat="server" OnClick="Button_Click" Text="Registrar" />
                 <br/><br/>
