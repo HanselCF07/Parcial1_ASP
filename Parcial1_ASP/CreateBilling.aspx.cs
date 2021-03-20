@@ -65,7 +65,7 @@ namespace Parcial1_ASP
                 arch.WriteLine("<br>");
                 arch.WriteLine("Fecha de Factura: " + tb_2f.Text);
                 arch.WriteLine("<br><br>");
-                arch.WriteLine("<h4>Articculos</h4>");
+                arch.WriteLine("<h4>Articulos</h4>");
                 arch.WriteLine("<hr style='border: 1px;'/>");
                 arch.WriteLine("Item #1");
                 arch.WriteLine("Descripcion: " + tb_3a.Text);

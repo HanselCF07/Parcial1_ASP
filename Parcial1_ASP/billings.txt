@@ -65,3 +65,70 @@ Total a Pagar: $285600
 <br>
 <br>
 <hr>
+<h3>Factura</h3>
+<br>
+<h4>Información Compañia</h4>
+<hr style='border: 1px;'/>
+Nombre: ETB
+<br>
+Correo: hansel@hotmail.com
+<br>
+Dirección: Calle 85 #56-89
+<br>
+Ciudad: Bogota
+<br>
+Codigo Postal Compañia: 0800025
+<br>
+Pais: Colombia
+<br>
+Provincia/Estado: Arauca
+<br><br>
+<h4>Información del Cliente y Factura</h4>
+<hr style='border: 1px;'/>
+Nombre: UAC
+<br>
+Correo: edwin@hotmail.com
+<br>
+Dirección: Calle 85 #56-89
+<br>
+Ciudad: Barranquilla
+<br>
+Codigo Postal Compañia: 0800025
+<br>
+Pais: Colombia
+<br>
+Provincia/Estado: Arauca
+<br>
+Fecha de Factura: 2021-03-20
+<br><br>
+<h4>Articulos</h4>
+<hr style='border: 1px;'/>
+Item #1
+Descripcion: CELULAR
+<br>
+Cantidad: 2
+<br>
+Precio: $10000
+<br><br>
+Item #2
+Descripcion: TV
+<br>
+Cantidad: 1
+<br>
+Precio: $10000
+<br><br>
+Item #3
+Descripcion: LAPTOP
+<br>
+Cantidad: 1
+<br>
+Precio: $20000
+<br><br>
+Subtotal: $50000
+<br>
+IVA: $9500
+<br>
+Total a Pagar: $59500
+<br>
+<br>
+<hr style='border: 2px;' />
