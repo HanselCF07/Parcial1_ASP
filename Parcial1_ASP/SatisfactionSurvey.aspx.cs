@@ -13,5 +13,14 @@ namespace Parcial1_ASP
         {
 
         }
+
+        protected void Button_Click(object sender, EventArgs e)
+        {
+            if (IsValid)
+            {
+                Label26.Text = "Encuesta Registrada";
+                tb_1a.Text = null;
+            }
+        }
     }
 }
