@@ -10,7 +10,15 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div class="container">
+            <div class="col-lg-6">
+                <br/><br/>
+                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+
+                <br/><br/>
+                <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Default.aspx">regresar</asp:HyperLink>
+                <br/><br/> 
+            </div>
         </div>
     </form>
 </body>

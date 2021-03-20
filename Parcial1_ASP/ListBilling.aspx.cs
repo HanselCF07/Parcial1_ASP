@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,7 +12,9 @@ namespace Parcial1_ASP
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            StreamReader arch = new StreamReader(Server.MapPath(".") + "/billings.txt");
+            Label1.Text = arch.ReadToEnd();
+            arch.Close();
         }
     }
 }
